@@ -1,56 +1,56 @@
-.profile h1{
-    font-size: 3rem;
-    font-weight: 800;
-    text-align: center;
-}
+* {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-.profile p{
-    text-align: center;
-}
-.boxes{
-    display: flex;
-    justify-content: center;
-}
-.boxes5{
-    display: block;
-    margin:center;
-    margin-top: 10px;
-}
-.boxes7{
-    margin-left: 20px;
-    justify-content: center;
-    color:black;
-    margin-top: 20px;
-    align-items: center;
-    padding: 0;
-    text-align: center;
-    width: 300px;
-    height: 450px;
-    border: 2px solid rgb(80, 76, 76);
-}
-.boxes7 a{
-    font-size: 20px;
-    font-weight: 400;
-    text-decoration: none;
-}
-.boxes7 i{
-    margin-top: 20px;
-}
-.boxes7 img{
-    width: 300px;
-    height: 250px;
-}
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
-.resume-text{
-    padding: 2rem 3rem;
-    margin-right: 5rem;
-    margin-top: 5rem;
-    font-size: 1rem;
-    width: 500px;
-    height: 300px;
-    border: 2px solid black;
-    text-align: center;
-}
-*{
-    background: white;
-}
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .profile-photo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .profile-link {
+            text-decoration: none;
+            color: #fff;
+            background-color: #0073b1;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .profile-link:hover {
+            background-color: #005582;
+        }
