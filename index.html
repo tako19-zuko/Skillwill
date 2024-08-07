@@ -3,24 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Project</title>
+    <title>Psychology Today:</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="container">
-        <div class="profile">
-            <img src="profile-photo.jpg" alt="Your Photo" class="profile-photo">
-            <h1>თაკო ტაბატაძე</h1>
-            <p>ამ სფეროების გაერთიანებით, მე მაქვს უნიკალური უნარი
-                გაიგოს და მიმართოს ფსიქოლოგიურს
-                სწავლის ასპექტები, ეფექტურად ასწავლიან კომპლექსს
-                ტექნიკური საგნები და ეხმარება მოსწავლეებს განვითარებაში
-                ძლიერი ენის ცოდნა. ჩემი მრავალმხრივი
-                მიდგომა დიდ სარგებელს მოუტანს ჩემს სტუდენტებს,
-                უზრუნველყოფს მათ სრულყოფილ განათლებას</p>
-            <a href="https://www.linkedin.com/feed//" target="_blank" class="profile-link">Connect with me on LinkedIn</a>
+    <header>
+        <div class="logo">My Psychology Page</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Welcome to My Psychology Page</h1>
+        <p>Discover more about us and what we offer.</p>
+        <a href="#about" class="cta-button">Learn More</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Happiness can improve your physical health. Positive emotions are linked to better health and longevity. Happiness has been shown to predict positive outcomes in many different areas of life including mental well-being, physical health, and overall longevity. Positive emotions increase satisfaction with life. Happiness helps people build stronger coping skills and emotional resources.</p>
+        <img src="about-img.jpg" alt="About Us">
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <img src="pic-img.jpg" alt="Service 1">
+            <h3>Finding your first therapist: Starting strong and overcoming challenges.</h3>
+            <p>Going to therapy for the first time or going to a new therapist is a bold step. Thus, it might elicit some strong feelings. For example, will I make progress? Is this person a good fit for me? What if I feel worse? These apprehensions are expected, and they accompany the process of entering therapy. It is totally okay to ask yourself these questions, as most people do. In addition, going to therapy might bring to the surface strong emotions and feelings – fear, anger, shame and so on. It is normal to feel these emotions, as you’ve already unconsciously begun your therapy the moment you decided to start. Your feelings are waiting to be addressed, so they begin to surface. This is also normal at this stage, and there’s no need to feel alarmed by their presence.
+
+                Our main advantages are the highest level of medical competence and ultra-modern equipment. We believe that the connection between technology and medical competence is inseparable. This is the only way we can provide medical services of higher standards.</p>
         </div>
-    </div>
+        <div class="service">
+            <img src="ouc-img1.jpg" alt="Service 2">
+            <h3>Beyond Affirmative: The Quest for Queer Therapy</h3>
+            <p>If we take a moment to look at the history of psychology and psychiatry, it becomes clear just how complicit these fields have been in upholding oppressive structures. Like many accepted and seemingly “objective” standards, therapeutic modalities and approaches are rife with patriarchal, capitalistic, white-supremacist, and cis/hetero/mono-normative underpinnings. Historically, these fields have often pathologized diverse sexual orientations and gender identities, reinforcing harmful stereotypes and marginalizing those who do not fit into the narrow confines of what is considered “normal.”</p>
+        </div>
+        <div class="service">
+            <img src="pic-img1.jpg" alt="Service 3">
+            <h3>What Is Emotional Health and Why Is It So Important?</h3>
+            <p>Can you recall a moment when you recoiled in fear from a thick black rope, misperceiving it as a menacing spider? How did your body react? Emotions are the internal experiences in response to events and situations. They can arise from internal bodily states and have link with bodily reactions. They help us to make decisions, avoid danger and get in tuned with our inner states.
+
+                Emotions play a vital role in how we think, and make decisions. Furthermore, they also have a huge influence on our fate. Research shows that emotional intelligence has a positive relationship with overall life quality, particularly on occupation, academic success, sense of wellbeing and life satisfaction.
+                
+                Emotional intelligence has a direct link with emotional wellbeing. However, they are different concepts. The former is the skill to emphasize with others, successfully communicating skills, and to be able to healthily deal with conflicts. On the other hand, emotional wellbeing is the skill to healthily regulate emotions, maintain a positive mood despite the setbacks and having a higher self-esteem. Having good emotional health is a major component of a higher life quality. 
+                
+                However, before diving into the topic deeply, it is important to clarify certain terminology. 
+                
+                Mood: Temporary states of mind and feeling. It can consist of several emotions and feelings.
+                
+                Emotions: Things that are experienced in response to events or situations. They can also arise from internal states and have link with bodily reactions.
+                
+                Feelings: Feelings are the interpretations of inner states and emotions. They are the construction of emotion and thoughts recalled from past events..</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Psychology Page. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
 </body>
 </html>
